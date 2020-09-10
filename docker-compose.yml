@@ -1,0 +1,7 @@
+version: 'latest'
+services:
+  web:
+    build: .
+    container_name: deno-alosaur-backend
+    ports:
+      - "8000:8000"
