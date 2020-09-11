@@ -1,4 +1,4 @@
-FROM luca2020/deno-alosaur-backend:latest
+FROM hayd/deno:latest
 
 # Create app directory
 WORKDIR /app
