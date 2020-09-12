@@ -4,7 +4,7 @@ import { Controller, Get, Area, App } from 'https://deno.land/x/alosaur@v0.21.1/
 export class HomeController {
     @Get() // or specific path @Get("/hello")
     text() {
-        return 'Hello world';
+        return 'This is the Home Route';
     }
 }
 
